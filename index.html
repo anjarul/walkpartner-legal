@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal · WalkPartner</title>
+  <meta name="description" content="Legal for the WalkPartner walking companion app.">
+  <style>
+:root {
+  --bg: #f3f7f5;
+  --ink: #12261e;
+  --forest: #0d3f30;
+  --leaf: #1a5c45;
+  --card: #ffffff;
+  --muted: #4a6358;
+  --line: rgba(13, 63, 48, 0.12);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: linear-gradient(180deg, #e8f2ed 0%, var(--bg) 220px);
+  color: var(--ink);
+  line-height: 1.55;
+}
+a { color: var(--leaf); }
+header {
+  background: var(--forest);
+  color: #f7f7e8;
+  padding: 28px 20px 24px;
+}
+header .wrap, main.wrap, footer.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+}
+header h1 {
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+  letter-spacing: -0.02em;
+}
+header p { margin: 0; opacity: 0.85; font-size: 0.95rem; }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-top: 16px;
+}
+nav a {
+  color: #f2c75c;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+nav a:hover { text-decoration: underline; }
+main.wrap { padding: 28px 20px 48px; }
+article {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 28px 24px;
+}
+article h1 { font-size: 1.45rem; margin-top: 0; color: var(--forest); }
+article h2 {
+  font-size: 1.15rem;
+  margin-top: 1.6em;
+  color: var(--forest);
+  border-top: 1px solid var(--line);
+  padding-top: 1em;
+}
+article h3 { font-size: 1.02rem; margin-top: 1.2em; color: var(--leaf); }
+article p, article li { color: var(--ink); }
+article ul, article ol { padding-left: 1.25em; }
+article blockquote {
+  margin: 1em 0;
+  padding: 12px 14px;
+  background: rgba(26, 92, 69, 0.08);
+  border-left: 3px solid var(--leaf);
+  color: var(--muted);
+}
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 1em 0;
+}
+article th, article td {
+  border: 1px solid var(--line);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+article th { background: rgba(26, 92, 69, 0.08); }
+article hr { border: none; border-top: 1px solid var(--line); margin: 1.5em 0; }
+article code {
+  background: rgba(13, 63, 48, 0.06);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+footer {
+  padding: 20px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+.cards { display: grid; gap: 14px; margin-top: 8px; }
+.card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 18px;
+  text-decoration: none;
+  color: inherit;
+}
+.card:hover { border-color: var(--leaf); }
+.card strong { color: var(--forest); display: block; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>WalkPartner</h1>
+      <p>Find company for walks — not dating, just a partner on the way.</p>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <article>
+
+<h1>Legal</h1>
+<p>Public policies for the WalkPartner Android app. Use these links in Google Play Console and Google Auth Platform.</p>
+<div class="cards">
+  <a class="card" href="privacy.html">
+    <strong>Privacy Policy</strong>
+    How we collect, use, and protect your information.
+  </a>
+  <a class="card" href="terms.html">
+    <strong>Terms of Service</strong>
+    Rules for using WalkPartner, walks, chat, and accounts.
+  </a>
+</div>
+<p style="margin-top:1.5em;color:var(--muted)">Contact: <a href="mailto:mail@anjarul.com">mail@anjarul.com</a></p>
+
+    </article>
+  </main>
+  <footer>
+    <div class="wrap">
+      Contact: <a href="mailto:mail@anjarul.com">mail@anjarul.com</a>
+      · WalkPartner
+    </div>
+  </footer>
+</body>
+</html>
